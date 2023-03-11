@@ -9,7 +9,7 @@ This is a portfolio website for displaying information and services that Coder A
 --
 ### Header
 Header has logo and name of the company along with the navigation bar. Here is the code for the header we have:
-'''html
+```html
 <header>
         <div class="logo-name">
             <a href="./index.html">
@@ -26,4 +26,21 @@ Header has logo and name of the company along with the navigation bar. Here is t
             <a href="./pages/contact.html">Contact</a>
         </nav>
 </header>
-'''
+```
+
+--
+### Footer
+Footer has social media links, contact number and address. Here is the code that we have:
+```html
+    <footer>
+        <div class="social-media">
+            <a href="https://github.com/coder-academy-students"><i class="fa-brands fa-github"></i></a>
+            <a href="https://au.linkedin.com/school/coder-academy/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/coder_academy/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <div class="info">
+            <p>Contact: 0404040404</p>
+            <p>Address: 1 Street, Suburb</p>
+        </div>
+    </footer>
+```
