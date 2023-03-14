@@ -1,12 +1,3 @@
-body {
-  margin: 0;
-  background-color: #a5a5a5;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 header {
   background-color: #ffb6b6;
   padding: 16px;
@@ -26,33 +17,28 @@ header .logo-name .name .coder-text {
 header .logo-name .name .academy-text {
   color: #1C3C5C;
 }
-header .nav-items {
+header .logo-name .nav-items {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   font-size: 18px;
 }
-header .nav-items a {
+header .logo-name .nav-items a {
   text-decoration: none;
   color: #00a3d4;
 }
-
 @media screen and (min-width: 600px) {
-  header {
+  header header {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
   }
-  header .logo-name .name {
+  header header .logo-name .name {
     margin-bottom: 0px;
   }
-  header .nav-items {
+  header header .nav-items {
     width: 50%;
   }
-}
-main section .jumbotron img {
-  height: 400px;
-  width: 100%;
 }
 
 footer {
@@ -70,16 +56,24 @@ footer .social-media a i {
   font-size: 24px;
 }
 footer .info {
-  color: rgb(41, 40, 40);
+  color: #1C3C5C;
 }
 footer .info .p {
   margin: 5px 0;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: medium) {
   footer .social-media {
     width: 50%;
     margin-left: auto;
     margin-right: auto;
   }
+}
+body {
+  margin: 0;
+  background-color: #a5a5a5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }/*# sourceMappingURL=index.css.map */
