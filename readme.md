@@ -66,6 +66,37 @@ Here is the code that we have used:
     </main>
 ```
 
+```
+### Services
+Services page displays the list of services that we provide. Here is the code that we have used:
+```html
+   <main>
+        <article>
+            <section>
+                <img class="service-image" src="../images/web-development.jpg" alt="Web Development"/>
+            </section>
+            <section>
+                <h3>Web Development</h3>
+            </section>
+        </article>
+        <article>
+            <section>
+                <img class="service-image" src="../images/web-development.jpg" alt="Web Development"/>
+            </section>
+            <section>
+                <h3>Web Design</h3>
+            </section>
+        </article>
+        <article>
+            <section>
+                <img class="service-image" src="../images/web-development.jpg" alt="Web Development"/>
+            </section>
+            <section>
+                <h3>System Security</h3>
+            </section>
+        </article>
+    </main>
+```
 
 '''
 ## Styling
