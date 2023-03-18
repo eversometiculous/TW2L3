@@ -66,7 +66,7 @@ Here is the code that we have used:
     </main>
 ```
 
-```
+'''
 ### Services
 Services page displays the list of services that we provide. Here is the code that we have used:
 ```html
@@ -97,6 +97,10 @@ Services page displays the list of services that we provide. Here is the code th
         </article>
     </main>
 ```
+
+'''
+### Contact
+Contact page can be used to contact the company.
 
 '''
 ## Styling
